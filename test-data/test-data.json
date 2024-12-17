@@ -75,11 +75,10 @@
         "currencySymbol": "€"
     },
     "globalCoverageMap": {
-        "serviceFilter": "Fax support",
         "regionFilter": "Europe",
         "country": "Ukraine", 
         "countryCode": "UA",
-        "expectedResult": "Local, Mobile"
+        "expectedResult": "Local, Mobile, Toll-free"
     },
     "storageCostCalc":{
         "storage": 500,

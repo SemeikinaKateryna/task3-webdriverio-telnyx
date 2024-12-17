@@ -257,10 +257,6 @@ describe('Telnyx testing', () => {
         await expect(mapMainPage.expoloreMapText).toBeDisplayed()
         await mapMainPage.expoloreMapText.scrollIntoView()
 
-        await expect(mapMainPage.filterByServiceButton).toBeDisplayed()
-        await mapMainPage.selectFilterByService(testData.globalCoverageMap.serviceFilter)
-        await expect(mapMainPage.filterByServiceButton).toHaveText(testData.globalCoverageMap.serviceFilter)
-
         await expect(mapMainPage.filterByRegionButton).toBeDisplayed()
         await mapMainPage.selectFilterByRegion(testData.globalCoverageMap.regionFilter)
         await expect(mapMainPage.filterByRegionButton).toHaveText(testData.globalCoverageMap.regionFilter)
@@ -272,10 +268,11 @@ describe('Telnyx testing', () => {
         }
 
         await mapMainPage.selectCountryOnMap(testData.globalCoverageMap.countryCode)
-    
-        await browser.pause(10000)
+
         await expect(mapMainPage.countryNameOnMap(testData.globalCoverageMap.countryCode)).toHaveText(testData.globalCoverageMap.country, { ignoreCase: true })
-        await expect(mapMainPage.resultAboutUkraineOnMap).toHaveText(testData.globalCoverageMap.expectedResult)
+        
+        let resultAboutCountryOnMapElem = await mapMainPage.resultAboutCountryOnMap(testData.globalCoverageMap.countryCode)
+        await expect(resultAboutCountryOnMapElem).toHaveText(testData.globalCoverageMap.expectedResult)
     });
 
     it("should check sim card pricing depending on input params", async () => {

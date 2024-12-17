@@ -22,8 +22,8 @@ class MapMainPage{
         return (countryCode) => $(`div[id="tooltip-${countryCode}"] span`)
     }
 
-    get resultAboutUkraineOnMap(){
-        return $('//div[@id="tooltip-UA"]//following-sibling::div')
+    get resultAboutCountryOnMap(){
+        return (countryCode) => $(`//div[@id="tooltip-${countryCode}"]//following-sibling::div`)
     }
 
     async selectFilterByService(value){
