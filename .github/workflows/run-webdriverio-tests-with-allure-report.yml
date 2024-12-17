@@ -1,0 +1,38 @@
+name: Run WebDriverIO tests and publish Allure report
+
+on: [push]
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    env:
+      INSECURE_PASSWORD: ${{ secrets.INSECURE_PASSWORD }}
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        ref: main
+    - name: Install dependencies
+      run: npm install
+    - name: Install WebDriverIO
+      run: npm install --save-dev @wdio/cli
+    - name: Install WebDriverIO dependencies
+      run: npx wdio config
+    - name: Run WebDriverIO tests
+      run: npm run test:all
+    - name: Generate Allure report
+      if: always()
+      run: npm run allure:generate
+    - name: Build test report
+      uses: simple-elf/allure-report-action@v1.7
+      if: always()
+      with:
+        gh_pages: gh-pages
+        allure_history: allure-history
+        allure_results: allure-results
+    - name: Publish Allure report
+      uses: peaceiris/actions-gh-pages@v3
+      if: always()
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: gh-pages
+        publish_dir: allure-history
