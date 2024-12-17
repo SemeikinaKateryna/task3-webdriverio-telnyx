@@ -14,7 +14,7 @@
     "test:file": "wdio run wdio.conf.js -- ./test/specs/test.e2e.js",
     "test:chrome": "cross-env HEADLESS_STATE=true wdio run wdio.chrome.conf.js",
     "test:firefox": "cross-env HEADLESS_STATE=true wdio run wdio.firefox.conf.js",
-    "allure:generate": "allure generate allure-results"
+    "allure:generate": "allure generate allure-results --clean"
   },
   "dependencies": {
     "dotenv": "^16.4.7"
