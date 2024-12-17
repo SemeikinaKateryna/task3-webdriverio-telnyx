@@ -18,7 +18,7 @@ jobs:
     - name: Install WebDriverIO dependencies
       run: npx wdio config --yes
     - name: Run WebDriverIO tests
-      run: npm run test:all
+      run: npm run test:all --headless
     - name: Generate Allure report
       if: always()
       run: npm run allure:generate
