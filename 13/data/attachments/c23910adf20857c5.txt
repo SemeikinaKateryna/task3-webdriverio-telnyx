@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@data-value=\"3\"]//strong[text()=\"Telnyx\"]//..//p"
+}
