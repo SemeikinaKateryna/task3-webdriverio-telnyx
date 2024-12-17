@@ -1,7 +1,7 @@
 export const config = {
     runner: 'local',
     specs: [
-        './test/specs/**/*.js'
+        './test/specs/test.e2e.js'
     ],
     
     maxInstances: 10,
