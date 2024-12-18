@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div#onetrust-close-btn-container button\"}\n  (Session info: chrome=131.0.6778.108)",
+  "stacktrace": "#0 0x5628b001b34a <unknown>\n#1 0x5628afb316e0 <unknown>\n#2 0x5628afb803e6 <unknown>\n#3 0x5628afb80681 <unknown>\n#4 0x5628afbc5b04 <unknown>\n#5 0x5628afba448d <unknown>\n#6 0x5628afbc2ed7 <unknown>\n#7 0x5628afba4203 <unknown>\n#8 0x5628afb72cc0 <unknown>\n#9 0x5628afb73c9e <unknown>\n#10 0x5628affe8d3b <unknown>\n#11 0x5628affeccc2 <unknown>\n#12 0x5628affd5b6c <unknown>\n#13 0x5628affed837 <unknown>\n#14 0x5628affbb10f <unknown>\n#15 0x5628b000a5a8 <unknown>\n#16 0x5628b000a770 <unknown>\n#17 0x5628b001a1c6 <unknown>\n#18 0x7f87d7fcea94 <unknown>\n#19 0x7f87d805ba34 __clone\n"
+}

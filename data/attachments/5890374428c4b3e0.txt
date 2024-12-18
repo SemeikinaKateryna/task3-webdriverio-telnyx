@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "main form select#Form_Partner_Type__c"
-}

@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "main p[id=\"pay-as-you-go\"]"
-}

@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "main form[action=\"/sign-up\"] div:nth-child(2) button"
-}

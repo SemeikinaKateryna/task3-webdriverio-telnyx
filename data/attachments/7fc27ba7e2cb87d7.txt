@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "main div[title=\"Messaging pricing - download pricing\"] h2"
-}

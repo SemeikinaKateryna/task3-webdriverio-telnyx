@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "main form[aria-label=\"voice-ai-form\"] div[id=\"terms_and_conditions_message\"]"
-}

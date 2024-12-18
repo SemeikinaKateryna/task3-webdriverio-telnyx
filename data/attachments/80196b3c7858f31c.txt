@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "section#iot-sim-card-calculator div[data-value=\"5\"] p:nth-child(1)"
-}
