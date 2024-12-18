@@ -15,6 +15,11 @@ jobs:
       run: npm install
     - name: Install Allure Commandline
       run: npm install -g allure-commandline --save-dev
+    - name: Install Docker and Docker Compose
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y docker.io
+        sudo apt-get install -y docker-compose
     - name: Start Selenium Grid
       run: npm run docker:compose:up
     - name: Clean allure-results folder
