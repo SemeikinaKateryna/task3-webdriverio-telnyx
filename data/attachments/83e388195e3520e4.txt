@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "section#our-global-coverage table > tbody > tr:nth-child(39) > td:nth-child(1)"
+}

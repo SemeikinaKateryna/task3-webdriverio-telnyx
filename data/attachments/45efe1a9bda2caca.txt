@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//main//span[text()=\"See all use cases\"]"
+}

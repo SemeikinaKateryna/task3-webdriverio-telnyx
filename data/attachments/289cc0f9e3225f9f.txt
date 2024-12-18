@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "div.c-buvHyO.c-buvHyO-idGZmCD-css a.c-fOQMKa.c-fOQMKa-jtQvir-background-dark.c-fOQMKa-izROKD-cv > span.c-hakyQ"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "main > section[contenttype=\"heroOverview\"] a[href=\"#our-global-coverage\"]"
+}

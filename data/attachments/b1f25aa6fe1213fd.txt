@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "div#onetrust-close-btn-container button"
-}
