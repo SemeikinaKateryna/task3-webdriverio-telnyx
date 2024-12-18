@@ -7,14 +7,18 @@
     "@wdio/local-runner": "^9.4.1",
     "@wdio/mocha-framework": "^9.2.8",
     "@wdio/spec-reporter": "^9.2.14",
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "wdio-docker-service": "^3.2.1"
   },
   "scripts": {
     "test:all": "wdio run wdio.conf.js",
     "test:file": "wdio run wdio.conf.js -- ./test/specs/test.e2e.js",
     "test:chrome": "cross-env HEADLESS_STATE=true wdio run wdio.chrome.conf.js",
     "test:firefox": "cross-env HEADLESS_STATE=true wdio run wdio.firefox.conf.js",
-    "allure:generate": "allure generate allure-results --clean"
+    "allure:generate": "allure generate allure-results --clean",
+    "test:docker:chrome": "cross-env HEADLESS_STATE=true wdio run wdio.docker.conf.js",
+    "docker:compose:up": "docker-compose -f docker/docker-compose-hubNode.yml up -d",
+    "docker:compose:down": "docker-compose -f docker/docker-compose-hubNode.yml down"
   },
   "dependencies": {
     "dotenv": "^16.4.7"

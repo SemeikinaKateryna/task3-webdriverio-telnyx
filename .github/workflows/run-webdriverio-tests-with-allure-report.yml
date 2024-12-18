@@ -15,10 +15,14 @@ jobs:
       run: npm install
     - name: Install Allure Commandline
       run: npm install -g allure-commandline --save-dev
+    - name: Start Selenium Grid
+      run: npm run docker:compose:up
     - name: Clean allure-results folder
       run: rm -rf allure-results
     - name: Run WebDriverIO tests
-      run: npm run test:chrome
+      run: npm run test:docker:chrome
+    - name: Stop Selenium Grid
+      run: npm run docker:compose:down
     - name: Generate Allure report
       if: always()
       run: npm run allure:generate
