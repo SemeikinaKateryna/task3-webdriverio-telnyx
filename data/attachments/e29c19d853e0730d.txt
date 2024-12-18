@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "main div#virtual-cross-connects-pricing-table table>tbody> tr:nth-child(1) > td:nth-child(5)"
+}

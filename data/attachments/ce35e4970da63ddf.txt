@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "section#our-global-coverage button[id=\"radix-:Rcpatm:-trigger-number-types\"]"
+}
