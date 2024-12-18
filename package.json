@@ -17,8 +17,8 @@
     "test:firefox": "cross-env HEADLESS_STATE=true wdio run wdio.firefox.conf.js",
     "allure:generate": "allure generate allure-results --clean",
     "test:docker:chrome": "cross-env HEADLESS_STATE=true wdio run wdio.docker.conf.js",
-    "docker:compose:up": "docker-compose -f docker/docker-compose-hubNode.yml up -d",
-    "docker:compose:down": "docker-compose -f docker/docker-compose-hubNode.yml down"
+    "docker:compose:up": "docker compose -f docker/docker-compose-hubNode.yml up -d",
+    "docker:compose:down": "docker compose -f docker/docker-compose-hubNode.yml down"
   },
   "dependencies": {
     "dotenv": "^16.4.7"
