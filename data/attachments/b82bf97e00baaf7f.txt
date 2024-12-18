@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "section#our-global-coverage form>div:nth-child(1)>button"
-}

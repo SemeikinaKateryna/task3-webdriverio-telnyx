@@ -1,1 +1,1 @@
-{"total":1,"items":[{"uid":"e91490bd24be299e9f919aa58485c48e","name":"Telnyx testing","statistic":{"failed":0,"broken":0,"skipped":0,"passed":20,"unknown":0,"total":20}}]}
+{"total":1,"items":[{"uid":"e91490bd24be299e9f919aa58485c48e","name":"Telnyx testing","statistic":{"failed":0,"broken":1,"skipped":0,"passed":19,"unknown":0,"total":20}}]}
