@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "form[aria-label=\"signup-form\"] div[id=\"passwordOneSymbol\"]"
-}

@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "div[aria-label=\"google/gemma-2b-it\"]"
-}

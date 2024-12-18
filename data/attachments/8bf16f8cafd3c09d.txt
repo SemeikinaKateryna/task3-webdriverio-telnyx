@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "main form select#Phone_Number_Extension__c"
-}

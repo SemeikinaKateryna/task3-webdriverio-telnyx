@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "main ul li:nth-child(1) h3"
-}

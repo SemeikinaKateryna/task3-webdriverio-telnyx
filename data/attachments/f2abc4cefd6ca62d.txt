@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "main div[id=\"Optional-features\"] table>tbody>tr:nth-child(1)>td>span"
-}

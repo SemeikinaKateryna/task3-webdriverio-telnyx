@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//section[@id=\"our-global-coverage\"]//form//input[@type=\"checkbox\"]//following-sibling::span[text()=\"Europe\"]"
-}
