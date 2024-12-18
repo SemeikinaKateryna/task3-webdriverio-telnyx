@@ -11,8 +11,8 @@
     "wdio-docker-service": "^3.2.1"
   },
   "scripts": {
-    "test:all": "wdio run wdio.conf.js",
-    "test:file": "wdio run wdio.conf.js -- ./test/specs/test.e2e.js",
+    "test:all": "cross-env HEADLESS_STATE=false wdio run wdio.conf.js",
+    "test:file": "cross-env HEADLESS_STATE=false wdio run wdio.conf.js -- ./test/specs/test.e2e.js",
     "test:chrome": "cross-env HEADLESS_STATE=true wdio run wdio.chrome.conf.js",
     "test:firefox": "cross-env HEADLESS_STATE=true wdio run wdio.firefox.conf.js",
     "allure:generate": "allure generate allure-results --clean",
