@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "main form #temperature-slider > span:nth-child(2)"
-}

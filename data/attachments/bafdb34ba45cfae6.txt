@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "main div[id=\"5l2kYpwRwUVLJsSoOL8kE9\"] > div > div:nth-child(3) p:nth-child(1)"
-}

@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//section[@id=\"iot-sim-card-calculator\"]//button//span[text()=\"Next\"]"
-}

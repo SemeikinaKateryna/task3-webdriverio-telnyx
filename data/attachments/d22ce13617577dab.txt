@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[@id=\"tooltip-UA\"]//following-sibling::div"
-}

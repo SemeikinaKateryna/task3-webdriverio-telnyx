@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//main//section//p[text()=\"Explore the interactive map below\"]"
-}

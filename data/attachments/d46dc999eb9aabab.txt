@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "main div input[type=\"number\"]"
-}

@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "div[id=\"main-menu-content\"] a[href=\"/partnerships\"]"
-}

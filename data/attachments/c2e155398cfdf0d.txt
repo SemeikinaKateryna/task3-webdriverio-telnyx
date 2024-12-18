@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "section#iot-sim-card-calculator input#iot-sim-savings-calculator__public-ip__-yes"
-}

@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": ".//option[normalize-space(text()) = \"SaaS / ISV / Tech\"] | .//option[not(.//option[normalize-space(text()) = \"SaaS / ISV / Tech\"]) and normalize-space() = \"SaaS / ISV / Tech\"]"
-}
