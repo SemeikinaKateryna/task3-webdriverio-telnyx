@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//option[normalize-space(text()) = \"Ukraine (+380)\"] | .//option[not(.//option[normalize-space(text()) = \"Ukraine (+380)\"]) and normalize-space() = \"Ukraine (+380)\"]"
+}

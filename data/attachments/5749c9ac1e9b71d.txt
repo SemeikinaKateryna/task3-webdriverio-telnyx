@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "main > section[contenttype=\"heroOverview\"] h1"
+}

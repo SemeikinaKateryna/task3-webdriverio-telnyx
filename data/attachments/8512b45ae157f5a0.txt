@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "main form label#temperature~span[data-orientation=\"horizontal\"]>span[data-orientation=\"horizontal\"]>span[style]"
+}

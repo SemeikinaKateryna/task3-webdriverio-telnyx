@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "article h2#rapid-scaling-with-telnyx"
+}

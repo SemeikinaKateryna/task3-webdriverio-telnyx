@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//main//a[@href=\"/customer-stories/onetext\"]//div"
+}

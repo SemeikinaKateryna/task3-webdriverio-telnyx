@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//main//section//h2[text()=\"Become a Telnyx Partner\"]"
+}
